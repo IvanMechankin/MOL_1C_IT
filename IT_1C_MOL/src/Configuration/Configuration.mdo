@@ -42,4 +42,5 @@
   </languages>
   <subsystems>Subsystem.Мониторинг</subsystems>
   <subsystems>Subsystem.УчетМЦ</subsystems>
+  <informationRegisters>InformationRegister.СерийныеНомера</informationRegisters>
 </mdclass:Configuration>

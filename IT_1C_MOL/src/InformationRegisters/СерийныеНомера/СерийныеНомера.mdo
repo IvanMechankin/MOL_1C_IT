@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5159c7a9-125f-4e4c-8559-6c098e7b625d">
+  <producedTypes>
+    <selectionType typeId="b9a74a59-c328-41ad-86db-2d2e6a7f884b" valueTypeId="10fb0d3d-edec-4a9f-8438-c2a96bd8a5ae"/>
+    <listType typeId="48ae4b93-87ab-43e3-a9b7-0f543dfb3a92" valueTypeId="3f30c9a7-7a66-47c2-92f0-18a50dcef032"/>
+    <managerType typeId="4e78f042-6abd-4ab0-86e6-fd871261d2f3" valueTypeId="06296c26-10b6-41d3-b9b0-2f419c3b50e9"/>
+    <recordSetType typeId="493b46f7-b938-41bd-9570-68c911fd5120" valueTypeId="acbd2f81-0ebd-4bee-bfc5-59083e7aab9a"/>
+    <recordKeyType typeId="2ad29369-1352-462d-8da1-c0150a906c40" valueTypeId="a0834562-e5b8-4933-8e14-803445c12c51"/>
+    <recordType typeId="a89f9c53-1ed3-407b-a88a-3b0aff19be23" valueTypeId="57573867-bd17-494b-92e6-12ffaed59566"/>
+    <recordManagerType typeId="8b8980d9-fa31-4ecb-bf1e-16439b7b9982" valueTypeId="24505eb9-eb95-4cad-a7c3-d6fd158d1417"/>
+  </producedTypes>
+  <name>СерийныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийные номера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f69fe935-51ce-4e87-b2b8-481f9040c483">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e604da65-7ab4-46e5-8e2d-05e4db2af341">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
