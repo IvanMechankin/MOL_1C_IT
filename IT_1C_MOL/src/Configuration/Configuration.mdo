@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>MOL</value>
   </synonym>
+  <comment>Для учета IT оборудования.</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b3a29273-6d7b-40cd-8dec-061fd23e12cf"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="640a6323-517e-44b4-971e-c355e8876ccd"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5ee3cfcf-6eeb-4604-a96d-b676db3d0d84"/>
@@ -39,4 +40,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Мониторинг</subsystems>
+  <subsystems>Subsystem.УчетМЦ</subsystems>
 </mdclass:Configuration>
