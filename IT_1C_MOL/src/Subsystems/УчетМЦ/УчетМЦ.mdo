@@ -7,5 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>InformationRegister.СерийныеНомера</content>
+  <content>InformationRegister.УникальныеДанныеНоменклатуры</content>
 </mdclass:Subsystem>

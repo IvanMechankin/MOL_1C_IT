@@ -9,10 +9,10 @@
     <recordType typeId="a89f9c53-1ed3-407b-a88a-3b0aff19be23" valueTypeId="57573867-bd17-494b-92e6-12ffaed59566"/>
     <recordManagerType typeId="8b8980d9-fa31-4ecb-bf1e-16439b7b9982" valueTypeId="24505eb9-eb95-4cad-a7c3-d6fd158d1417"/>
   </producedTypes>
-  <name>СерийныеНомера</name>
+  <name>УникальныеДанныеНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Серийные номера</value>
+    <value>Уникальные данные номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -27,6 +27,42 @@
       <types>String</types>
       <stringQualifiers>
         <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fce45740-7ccd-45b7-95a3-542df2cdb1f6">
+    <name>МакАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mac-адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b1fe847-932b-48e4-bc8a-f4fa71667e72">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

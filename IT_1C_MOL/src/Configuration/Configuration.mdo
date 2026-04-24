@@ -42,5 +42,6 @@
   </languages>
   <subsystems>Subsystem.Мониторинг</subsystems>
   <subsystems>Subsystem.УчетМЦ</subsystems>
-  <informationRegisters>InformationRegister.СерийныеНомера</informationRegisters>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <informationRegisters>InformationRegister.УникальныеДанныеНоменклатуры</informationRegisters>
 </mdclass:Configuration>
