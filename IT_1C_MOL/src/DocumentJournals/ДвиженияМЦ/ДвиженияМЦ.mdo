@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2becfaa-8ecd-41e1-97ad-046a99c8bf2b">
+  <producedTypes>
+    <selectionType typeId="ec79d5fa-ce81-40a3-aa0e-f9780706e430" valueTypeId="9bcdc77d-cb61-4dc2-874c-2a02dc0edeee"/>
+    <listType typeId="e5505c57-0c01-469f-89be-9a704c0a5379" valueTypeId="47d76cf9-3153-4ea6-b0fe-7a55c0e4cb07"/>
+    <managerType typeId="3c7a043c-b8ae-42a8-a5cb-6d668a8a3cd7" valueTypeId="afcc9b69-83a6-49eb-a525-84d8378bceb9"/>
+  </producedTypes>
+  <name>ДвиженияМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения МЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Поступление</registeredDocuments>
+</mdclass:DocumentJournal>
