@@ -43,5 +43,7 @@
   <subsystems>Subsystem.Мониторинг</subsystems>
   <subsystems>Subsystem.УчетМЦ</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.Поступление</documents>
   <informationRegisters>InformationRegister.УникальныеДанныеНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.МатериальныеЦенности</accumulationRegisters>
 </mdclass:Configuration>

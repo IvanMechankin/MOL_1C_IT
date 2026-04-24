@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.УникальныеДанныеНоменклатуры</content>
   <content>Catalog.Номенклатура</content>
+  <content>Document.Поступление</content>
 </mdclass:Subsystem>

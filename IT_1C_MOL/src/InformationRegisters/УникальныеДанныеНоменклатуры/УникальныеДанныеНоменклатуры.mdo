@@ -17,7 +17,22 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="f69fe935-51ce-4e87-b2b8-481f9040c483">
+  <resources uuid="da176fda-4554-4e65-8aa6-25e6f3398776">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d38b394-e7f0-4e14-ab88-dd0d4e8c9ac1">
     <name>СерийныйНомер</name>
     <synonym>
       <key>ru</key>
@@ -34,8 +49,8 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="fce45740-7ccd-45b7-95a3-542df2cdb1f6">
+  </dimensions>
+  <dimensions uuid="d61c50c0-997f-4b7b-a853-eafe2da85931">
     <name>МакАдрес</name>
     <synonym>
       <key>ru</key>
@@ -52,8 +67,8 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="4b1fe847-932b-48e4-bc8a-f4fa71667e72">
+  </dimensions>
+  <dimensions uuid="51474465-c9ff-4699-889a-c4bddf070994">
     <name>ИнвентарныйНомер</name>
     <synonym>
       <key>ru</key>
@@ -70,24 +85,5 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <dimensions uuid="e604da65-7ab4-46e5-8e2d-05e4db2af341">
-    <name>Номенклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номенклатура</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
